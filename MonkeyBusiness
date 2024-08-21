@@ -1,0 +1,30 @@
+@echo off
+mode con: cols=120 lines=40
+
+echo Set objShell = CreateObject("WScript.Shell") > "%temp%\tmp.vbs"
+echo objShell.Popup "What? Hello 'blurld'? Stupid code monkeys!", 5, "Message", 64 >> "%temp%\tmp.vbs"
+cscript //nologo "%temp%\tmp.vbs"
+del "%temp%\tmp.vbs"
+
+color 1F
+
+echo "     _...._"
+echo "   .-.     /"
+echo "  /o.o\ ):.\"
+echo "  \   / `- .`--._"
+echo "  // /            `-."
+echo " '...\     .         `."
+echo "  `--''.    '          `."
+echo "      .'   .'            `-."
+echo "   .-'    /`-.._            \"
+echo " .'    _.'      :      .-\"'/'"
+echo " | _,--\`       .'     .'    /"
+echo " \ \          /     .'     /"
+echo "  \///        |    ' |    /"
+echo "             \   (  `.   ``-."
+echo "              \   \   `._    \"
+echo "            _.-\`   )    .'    )"
+echo "            \`.__.-'  .-' _-.-'"
+echo "                     \`.__,'"
+
+pause
